@@ -7,7 +7,7 @@ First Python Flask Application
 
 ```console
 # Create the virtual env named virtualenv
-$ python3 -m venv vrtualenv
+$ python3 -m venv virtualenv
 
 # Activate the venv
 $ source venv/bin/activate
@@ -25,4 +25,13 @@ $ source venv/bin/activate
 (virtualenv) $ python
 >>> import flask
 >>>
+```
+
+## Running the application
+
+### hello_world
+
+```console
+(virtualenv) $ export FLASK_APP=hello_world/hello.py
+(virtualenv) $ flask run
 ```
