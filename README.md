@@ -35,3 +35,18 @@ $ source venv/bin/activate
 (virtualenv) $ export FLASK_APP=hello_world/hello.py
 (virtualenv) $ flask run
 ```
+
+OR,
+
+```python
+# Ensure that the following lines is added to hello.py-
+#!/usr/bin/env python
+
+if __name__ == '__main__':
+    app.run()
+```
+
+```console
+(virtualenv) $ chmod +x 1_hello_world/hello.py
+(virtualenv) $ ./1_hello_world/hello.py
+```
